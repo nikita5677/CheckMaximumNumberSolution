@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ChechMaximumNumber
 {
-    class MaxOf3Values
+    class MaxOfThreeValues
     {
         public static T findmax<T>(T first, T second, T third) where T : IComparable<T>
         {
