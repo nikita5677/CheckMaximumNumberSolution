@@ -9,7 +9,7 @@ namespace ChechMaximumNumber
     class UC2MaxFloat
     {
         /// <summary>
-        /// This method is created for float number
+        /// This method is created for float numbers
         /// </summary>
         public static double MaximumFloatNumber(double firstValue, double secondValue, double thirdValue)
         {
