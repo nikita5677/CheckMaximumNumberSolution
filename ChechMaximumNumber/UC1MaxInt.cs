@@ -9,7 +9,7 @@ namespace ChechMaximumNumber
     public class UC1MaxInt
     {
         /// <summary>
-        /// This method is created for maximum int number
+        /// This method is created for maximum int numbers
         /// </summary>
         public static int MaximumIntegerNumber(int firstValue, int secondValue, int thirdValue)
         {
