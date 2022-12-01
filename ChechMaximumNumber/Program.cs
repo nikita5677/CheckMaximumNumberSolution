@@ -40,32 +40,32 @@ namespace ChechMaximumNumber
 
             //UC4
             //maximum integer number
-            Console.WriteLine("Maximum Integer Number is: ");
-            int output = UC4.MaximumIntegerNumber(65, 21, 15);
-            Console.WriteLine(output);
-            //Maximum float number
-            Console.WriteLine("Maximum Float Number is:");
-            double doubleoutput = UC4.MaximumFloatNumber(56.3, 87.12, 150.2);
-            Console.WriteLine(doubleoutput);
-            //Maximum String value
-            Console.WriteLine("Maximum String value is : ");
-            string strigoutput = UC4.MaximumStringNumber("Apple", "Peach", "Banana");
-            Console.WriteLine(strigoutput);
+            //Console.WriteLine("Maximum Integer Number is: ");
+            //int output = UC4.MaximumIntegerNumber(65, 21, 15);
+            //Console.WriteLine(output);
+            ////Maximum float number
+            //Console.WriteLine("Maximum Float Number is:");
+            //double doubleoutput = UC4.MaximumFloatNumber(56.3, 87.12, 150.2);
+            //Console.WriteLine(doubleoutput);
+            ////Maximum String value
+            //Console.WriteLine("Maximum String value is : ");
+            //string strigoutput = UC4.MaximumStringNumber("Apple", "Peach", "Banana");
+            //Console.WriteLine(strigoutput);
             //A - 65, B - 66 C - 67..Z
             //a = 97,b = 98, c = 99..z,
             //'0' - 48, 1 - 49,2 - 50,3 - 51,4 - 52...
 
             //UC5
-            //Console.WriteLine("Find the maximum number: ");
-            //int[] arr = { 112, 432, 344, 555, 678 };
-            //GenricMaximum<int> generic = new GenricMaximum<int>(arr);
-            //generic.PrintMaxValue();
-            //double[] doublearr = { 11.2, 34.4, 4.32, 55.5, 6.78 };
-            //GenricMaximum<double> genericDouble = new GenricMaximum<double>(doublearr);
-            //genericDouble.PrintMaxValue();
-            //string[] stringArray = { "111", "222", "333", "55", "999" };
-            //GenricMaximum<string> genericString = new GenricMaximum<string>(stringArray);
-            //genericString.PrintMaxValue();
+            Console.WriteLine("Find the maximum number: ");
+            int[] arr = { 112, 432, 344, 555, 678 };
+            GenricMaximum<int> generic = new GenricMaximum<int>(arr);
+            generic.PrintMaxValue();
+            double[] doublearr = { 11.2, 34.4, 4.32, 55.5, 6.78 };
+            GenricMaximum<double> genericDouble = new GenricMaximum<double>(doublearr);
+            genericDouble.PrintMaxValue();
+            string[] stringArray = { "111", "222", "333", "55", "999" };
+            GenricMaximum<string> genericString = new GenricMaximum<string>(stringArray);
+            genericString.PrintMaxValue();
         }
     }
 }
