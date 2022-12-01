@@ -10,7 +10,7 @@ namespace ChechMaximumNumber
     {
         public T[] value;
         /// <summary>
-        /// This method is created for initialize the constructor of instance variable
+        /// This method is created for initialize the constructor of instance variables
         /// </summary>
         /// <param name="input_val1"></param>
         /// <param name="input_val2"></param>
