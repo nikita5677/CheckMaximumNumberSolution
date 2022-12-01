@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace ChechMaximumNumber
 {
-    public class UC1MaxInt
+    class UC2MaxFloat
     {
         /// <summary>
-        /// This method is created for maximum int number
+        /// This method is created for float number
         /// </summary>
-        public static int MaximumIntegerNumber(int firstValue, int secondValue, int thirdValue)
+        public static double MaximumFloatNumber(double firstValue, double secondValue, double thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0)
             {

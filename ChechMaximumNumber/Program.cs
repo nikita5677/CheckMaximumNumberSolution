@@ -11,14 +11,14 @@ namespace ChechMaximumNumber
         static void Main(string[] args)
         {
             //UC1
-            Console.WriteLine("Maximum Integer Number is: ");
-            int output = UC1MaxInt.MaximumIntegerNumber(65, 21, 15);
-            Console.WriteLine(output);
+            //Console.WriteLine("Maximum Integer Number is: ");
+            //int output = UC1MaxInt.MaximumIntegerNumber(65, 21, 15);
+            //Console.WriteLine(output);
 
             //UC2
-            //Console.WriteLine("Maximum Float Number is:");
-            //double doubleoutput = UC2MaxFloat.MaximumFloatNumber(56.3, 87.12, 150.2);
-            //Console.WriteLine(doubleoutput);
+            Console.WriteLine("Maximum Float Number is:");
+            double doubleoutput = UC2MaxFloat.MaximumFloatNumber(56.3, 87.12, 150.2);
+            Console.WriteLine(doubleoutput);
 
             //UC3
             //Console.WriteLine("Maximum String value is : ");
