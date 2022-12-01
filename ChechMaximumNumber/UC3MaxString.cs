@@ -9,7 +9,7 @@ namespace ChechMaximumNumber
     public class UC3MaxString
     {
         /// <summary>
-        /// This method is created for string number
+        /// This method is created for string numbers
         /// </summary>
         public static string MaximumStringNumber(string firstString, string secondString, string thirdString)
         {
