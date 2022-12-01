@@ -16,14 +16,14 @@ namespace ChechMaximumNumber
             //Console.WriteLine(output);
 
             //UC2
-            Console.WriteLine("Maximum Float Number is:");
-            double doubleoutput = UC2MaxFloat.MaximumFloatNumber(56.3, 87.12, 150.2);
-            Console.WriteLine(doubleoutput);
+            //Console.WriteLine("Maximum Float Number is:");
+            //double doubleoutput = UC2MaxFloat.MaximumFloatNumber(56.3, 87.12, 150.2);
+            //Console.WriteLine(doubleoutput);
 
             //UC3
-            //Console.WriteLine("Maximum String value is : ");
-            //string strigoutput = UC3MaxString.MaximumStringNumber("Apple", "Peach", "Banana");
-            //Console.WriteLine(strigoutput);
+            Console.WriteLine("Maximum String value is : ");
+            string strigoutput = UC3MaxString.MaximumStringNumber("Apple", "Peach", "Banana");
+            Console.WriteLine(strigoutput);
             //A - 65, B - 66 C - 67..Z
             //a = 97,b = 98, c = 99..z,
             //'0' - 48, 1 - 49,2 - 50,3 - 51,4 - 52...
