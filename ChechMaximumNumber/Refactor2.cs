@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,7 +16,6 @@ namespace ChechMaximumNumber
             this.second = second;
             this.third = third;
         }
-
         public static T findmax(T first, T second, T third)
         {
             //If first-second>0 && first-third>0
