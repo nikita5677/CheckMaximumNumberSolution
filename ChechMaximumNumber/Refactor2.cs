@@ -6,9 +6,18 @@ using System.Threading.Tasks;
 
 namespace ChechMaximumNumber
 {
-    class MaxOf3Values
+    class MaxOfValues<T> where T : IComparable<T>
     {
-        public static T findmax<T>(T first, T second, T third) where T : IComparable<T>
+        public T first, second, third;
+
+        public MaxOfValues(T first, T second, T third)
+        {
+            this.first = first;
+            this.second = second;
+            this.third = third;
+        }
+
+        public static T findmax(T first, T second, T third)
         {
             //If first-second>0 && first-third>0
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0 ||
